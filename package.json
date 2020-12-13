@@ -36,7 +36,8 @@
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.6",
     "mongoose-delete": "^0.5.2",
-    "mongoose-slug-generator": "^1.0.4"
+    "mongoose-slug-generator": "^1.0.4",
+    "mustache": "^4.1.0"
   },
   "devDependencies": {
     "husky": "^4.3.5",
