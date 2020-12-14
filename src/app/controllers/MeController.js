@@ -10,7 +10,7 @@ class MeController {
                 name: "asc",
             });
         }
-                        Promise.all([Course.find({}), Course.countDocumentsDeleted()])
+                              Promise.all([Course.find({}), Course.countDocumentsDeleted()])
                .then(([courses, deletedCount]) =>
                    res.render("me/stored-courses", {
                     deletedCount,

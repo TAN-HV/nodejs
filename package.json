@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/TAN-HV/nodejs#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single quote --trailing-comma all --tab-width 4 --write"
+    "src/app/controllers/*.{js,json,scss}": "prettier --single-quote --jsx-single-quote --no-bracket-spacing --no-semi --trailing-comma all --use-tab --tab-width 4 --write"
   },
   "husky": {
     "hooks": {
