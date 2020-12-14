@@ -1,0 +1,30 @@
+.card-course-item {
+  margin-top: 16px; }
+
+.user-avatar {
+  width: 15px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 4px; }
+
+.NavBar_logo__17p9A {
+  float: left;
+  margin-top: 8px;
+  width: 25%; }
+
+.NavBar_wrapper__1SDoq {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 24;
+  transition: all ease-in-out .3s; }
+
+.index-module_wide__3c1pI {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto; }
+
+.index-module_grid__1q71E {
+  padding: 0;
+  margin: 0 auto; }
