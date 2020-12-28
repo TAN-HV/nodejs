@@ -1,8 +1,105 @@
-.card-course-item {
-  margin-top: 16px; }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {
+    background: red; }
+  .container {
+    width: 100%; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green; }
+  .container {
+    width: 570px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue; }
+  .container {
+    width: 750px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange; }
+  .container {
+    width: 970px; } }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink; }
+  .container {
+    width: 1170px; } }
+
+.footer-wrapper {
+  background: #151515;
+  padding: 80px 0 110px 0;
+  transition: all ease-in-out .3s;
+  color: white; }
+
+.footer-wrapper ul li a {
+  line-height: 2rem;
+  font-size: .875rem;
+  transition: color linear .3s; }
+
+.footer-subscribeBtn {
+  width: 120px;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: plum;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition-property: color;
+  transition-duration: .3s; }
+
+.module_col {
+  width: 16.66667%;
+  padding-left: 12px;
+  padding-right: 12px; }
+
+.module_row {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin-left: -4px;
+  margin-right: -4px; }
+
+.module_wide {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto; }
+
+.module_grid {
+  padding: 0;
+  margin: 0 auto; }
 
 .user-avatar {
   width: 15px;
   height: 16px;
   border-radius: 50%;
   margin-right: 4px; }
+
+.card-course-item {
+  margin-top: 16px; }
+
+.checkbox--select-all-options {
+  width: 130px;
+  margin: 0 16px; }
+
+#table-style-tbody tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+#table-style-tbody tr:hover {
+  background-color: #ddd; }
+
+.table-style-td {
+  display: flex;
+  padding: unset; }
