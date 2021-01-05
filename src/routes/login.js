@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-
-const loginController = require('../app/controllers/LoginController');
-router.get('/', loginController.login);
-
-// router.get("/stored/courses", meController.storedCourses);
+const passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
+// const loginController = require("../app/controllers/LoginController");
+const User = require('../models/register');
+// router.get("/", loginController.login);
 
 module.exports = router;

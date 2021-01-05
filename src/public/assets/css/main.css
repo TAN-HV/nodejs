@@ -1,0 +1,93 @@
+.Auth_contentWrapper__2o86a {
+  text-align: center;
+  height: 100%;
+  font-size: 0; }
+
+.Auth_content__3ny3N {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 14px;
+  text-align: left; }
+
+.Auth_header__3TpGf {
+  display: flex;
+  align-items: center;
+  min-height: 96px;
+  background-color: #fff;
+  margin: 0;
+  box-shadow: 0 1px 5px -1px rgba(51, 62, 73, 0.14), 0 4px 10px 0 rgba(51, 62, 73, 0.08); }
+
+.Auth_logo__3ZHYb {
+  overflow: hidden;
+  text-indent: -9000px;
+  width: 164px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(/assets/images/f8_text_logo_black.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -4px; }
+
+.Auth_boxContainer__1Z1xu {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 24px; }
+
+.Auth_boxHelper__23YoC {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px; }
+
+.Auth_box__1-63O {
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1); }
+
+.Auth_box__1-63O .Auth_heading__AOeoZ {
+  text-align: center;
+  margin: 8px 0 34px 0;
+  font-size: 22px;
+  font-weight: normal; }
+
+.Auth_box__1-63O .Auth_btn__OkLp9 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.Auth_box__1-63O .Auth_btnSubmit__yZkNY {
+  transition: background-color .2s ease;
+  background-color: #1dbfaf;
+  margin-top: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none; }
+
+.Auth_subHeading__RVHCp,
+.Auth_snsHelp__KZhEC {
+  text-align: center;
+  color: #636d77;
+  font-size: .875rem;
+  font-weight: lighter;
+  line-height: 1.4rem; }
+
+.Auth_subHeading__RVHCp {
+  margin: -12px 0 24px 0; }

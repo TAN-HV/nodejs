@@ -1,9 +1,10 @@
-const { mongooseToObject } = require('../../util/mongoose');
+// const { mongooseToObject } = require("../../util/mongoose");
 
 class LoginController {
     // [GET] /courses/:slug
     login(req, res, next) {
-        res.json({ msg: 'token' });
+        // res.json({ msg: 'token' });
+        res.render('login');
     }
 }
 
