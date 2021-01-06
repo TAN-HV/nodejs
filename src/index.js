@@ -3,7 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
 const handlebars = require('express-handlebars');
-
+const cookieParser = require('cookie-parser');
 const route = require('./routes');
 const db = require('./config/db');
 
@@ -21,11 +21,11 @@ app.use(
     }),
 );
 app.use(express.json());
-
+app.use(cookieParser('anonystick'));
 app.use(methodOverride('_method'));
 
 // HTTP logger
-// app.use(morgan('combined'));
+app.use(morgan('combined'));
 
 // Template engine
 app.engine(
@@ -39,7 +39,6 @@ app.engine(
 );
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources', 'views'));
-
 // Routes init
 route(app);
 

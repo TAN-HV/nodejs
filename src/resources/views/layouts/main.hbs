@@ -11,6 +11,13 @@
     </head>
 
     <body>
+                    <div class="entry">
+                    {{#if author}}
+                    <h1>{{firstName}} {{lastName}}</h1>
+                    {{else}}
+                    <h1>Unknown Author</h1>
+                    {{/if}}
+                    </div>
         <div class="app">
             {{> header}}
 

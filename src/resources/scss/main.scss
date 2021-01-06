@@ -1,9 +1,9 @@
-.Auth_contentWrapper__2o86a {
+.Auth_contentWrapper {
     text-align: center;
     height: 100%;
     font-size: 0;
 }
-.Auth_content__3ny3N {
+.Auth_content {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -12,7 +12,7 @@
     font-size: 14px;
     text-align: left;
 }
-.Auth_header__3TpGf {
+.Auth_header {
     display: flex;
     align-items: center;
     min-height: 96px;
@@ -21,20 +21,20 @@
     box-shadow: 0 1px 5px -1px rgba(51, 62, 73, 0.14),
         0 4px 10px 0 rgba(51, 62, 73, 0.08);
 }
-.Auth_logo__3ZHYb {
+.Auth_logo {
     overflow: hidden;
     text-indent: -9000px;
     width: 164px;
     height: 40px;
     display: block;
     margin: 0 auto;
-    background-image: url(/assets/images/f8_text_logo_black.png);
+    background-image: url(/assets/img/f8_text_logo_black.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     top: -4px;
 }
-.Auth_boxContainer__1Z1xu {
+.Auth_boxContainer {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -42,58 +42,197 @@
     flex-grow: 1;
     padding: 24px;
 }
-.Auth_boxHelper__23YoC {
+.Auth_boxHelper {
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 360px;
 }
-.Auth_box__1-63O {
+.Auth_box {
     background-color: #fff;
     border-radius: 4px;
     position: relative;
     z-index: 1;
     padding: 24px;
     box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    .Auth_heading {
+        text-align: center;
+        margin: 8px 0 34px 0;
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .Auth_btn {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .Auth_btnSubmit {
+        transition: background-color 0.2s ease;
+        background-color: #1dbfaf;
+        margin-top: 12px;
+        padding: 12px 16px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+    }
 }
 
-.Auth_box__1-63O .Auth_heading__AOeoZ {
-    text-align: center;
-    margin: 8px 0 34px 0;
-    font-size: 22px;
-    font-weight: normal;
-}
-
-.Auth_box__1-63O .Auth_btn__OkLp9 {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 8px;
-    cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.Auth_box__1-63O .Auth_btnSubmit__yZkNY {
-    transition: background-color 0.2s ease;
-    background-color: #1dbfaf;
-    margin-top: 12px;
-    padding: 12px 16px;
-    font-weight: 600;
-    color: #fff;
-    border: none;
-}
-.Auth_subHeading__RVHCp,
-.Auth_snsHelp__KZhEC {
+.Auth_subHeading,
+.Auth_snsHelp {
     text-align: center;
     color: #636d77;
     font-size: 0.875rem;
     font-weight: lighter;
     line-height: 1.4rem;
 }
-
-.Auth_subHeading__RVHCp {
+.Auth_orSeparator {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #e1e6eb;
+    margin: 0 15px;
+}
+.Auth_form {
+    text-align: left;
+}
+.Auth_subHeading {
     margin: -12px 0 24px 0;
+}
+.TextInput_container {
+    margin-bottom: 16px;
+    position: relative;
+}
+.Label_label {
+    display: block;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 18px;
+}
+.FormField_errorMessage {
+    color: #f33a58;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 0 0;
+}
+.Input_inputWrap {
+    position: relative;
+}
+.Auth_box .Auth_loginWrapper .Auth_resetWrapper .Auth_resetLink,
+.Auth_box .Auth_loginWrapper .Auth_signinWrapper .Auth_resetLink,
+.Auth_bo .Auth_loginWrapper .Auth_agreeTermsWrapper .Auth_resetLink {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    color: #636d77;
+}
+.Auth_disclaimer p a:hover {
+    text-decoration: underline;
+}
+.Auth_box .Auth_loginWrapper .Auth_btnGoogle:focus,
+.Auth_box .Auth_loginWrapper .Auth_btnGoogle:hover,
+.Auth_box .Auth_loginWrapper .Auth_btnLinkedin:focus,
+.Auth_box .Auth_loginWrapper .Auth_btnLinkedin:hover {
+    box-shadow: none;
+    transition: all 0.2s ease;
+    background-color: #ebebeb;
+    border-color: #1dbfaf;
+}
+.Auth_box .Auth_loginWrapper .Auth_btnFacebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+    padding: 6px 0;
+    background: #fff;
+    border: 1px solid #b3b3b3;
+}
+.Auth_box .Auth_loginWrapper .Auth_btnFacebook span::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: -6px;
+}
+.Input_input__1er4x.Input_invalid__3aY5_ {
+    background-color: #fdebee;
+    border-color: #f33a58;
+}
+.Input_m__Tf8eM {
+    height: 40px;
+    padding: 8px 12px;
+}
+.Input_input__1er4x {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    color: white;
+    font-family: inherit;
+    transition: background-color 0.15s cubic-bezier(0.2, 0.2, 0.2, 1),
+        border-color 0.15s cubic-bezier(0.2, 0.2, 0.2, 1);
+    width: 100%;
+}
+.Input_m__Tf8eM + .Input_iconContainer__18FVS {
+    width: 40px;
+}
+.Input_initIcon__1Ox0f {
+    color: white;
+    cursor: default;
+}
+.Input_input__1er4x.Input_invalid__3aY5_:focus,
+.Input_input__1er4x.Input_invalid__3aY5_:hover {
+    border-color: #f33a58;
+    background-color: white;
+}
+.Input_m__Tf8eM + .Input_iconContainer__18FVS {
+    width: 40px;
+}
+
+.Input_errorIcon__3sCmL {
+    pointer-events: none;
+    -webkit-animation: Input_shake__1U43o 0.35s linear 1;
+    animation: Input_shake__1U43o 0.35s linear 1;
+    color: #f33a58;
+}
+.Input_iconContainer__18FVS {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.Input_icon__3bJ0I {
+    flex: 1 1;
+    width: 16px;
+    height: 16px;
+}
+.PasswordField_iconButton__1LFBr {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #009090;
+}
+.Auth_resetWrapper {
+    text-align: center;
+    margin-top: 24px;
+}
+.Auth_resetLink__22xZS {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    color: #636d77;
 }
